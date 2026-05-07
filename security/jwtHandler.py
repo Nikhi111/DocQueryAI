@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from jose import jwt
 
-from config import SECRET_KEY, ALGORITHM
+from security.config import SECRET_KEY, ALGORITHM
 
 
 def create_access_token(email:str ):
